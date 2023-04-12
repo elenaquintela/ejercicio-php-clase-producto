@@ -1,0 +1,71 @@
+*{box-sizing:border-box;}
+
+body {
+  margin: 0 auto;
+  background-color:steelblue;
+}
+
+.title {
+  color: white; 
+  margin:1em 2em 0 2em; 
+  letter-spacing:.5em;
+}
+
+#form {
+  background-color:lightcyan; 
+  margin:2em; 
+  width:400px; 
+  padding:16px; 
+  border-radius:10px;
+  text-align:center; 
+}
+
+.field {
+  text-align: left;
+  display: flex;
+  padding: .3em;
+}
+
+#form label {
+	width:100px;
+	font-weight:bold;
+}
+
+button {
+  width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(29, 66, 97);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgb(29, 66, 97);
+}
+
+#tabla {
+  text-align:center; 
+  background-color:lightcyan; 
+  margin:2em; 
+  width:600px;
+  padding:16px; 
+  border-radius:10px;
+}
+
+
+.ticket-container {
+  justify-content:flex-start; 
+  display:flex; 
+  margin:2em 0 0 4em
+}
+
+.ticket {
+   background-color:bisque; 
+   padding:1em;
+}
+
+h3 {
+  margin:0 0 6px 0;
+  color:rgb(29, 66, 97);
+  letter-spacing:2px;
+  
+}
